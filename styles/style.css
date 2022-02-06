@@ -92,6 +92,179 @@ body {
   text-align: center;
 }
 
+/* catalog-main-inner */
+.main-inner {
+  color: white;
+  background-color: black;
+  background-image: url(../images/catalog-images/catalog-background.png);
+  /*почему так похо отображается :**( */
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 408px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.catalog-filter-infrastructure {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.catalog-filter-type {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.catalog-filter-group {
+  background-color: #81B3D2;
+}
+
+.blue-button-catalog {
+  color: white;
+  background-color: #81B3D2;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reset-button {
+  color: white;
+  background-color: #81B3D2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.searching-results {
+  color: black;
+  background-color: white;
+}
+
+.searching-results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/* hotel */
+.hotels-card {
+  color: black;
+  background-color: white;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.product-card-title {
+  color: black;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hotel-discription {
+  color: white;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hotel-favorites {
+  color: white;
+  background-color: rgba(131, 179, 211, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hotel-rating {
+  color: black;
+  background-color: rgba(242, 242, 242, 1);
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 160px;
+  height: 37px;
+}
+
+.pagination-show-more {
+  color: white;
+  background-color: #81B3D2;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  height: 60px;
+}
+
+.pagination-link {
+  color: white;
+  background-color: rgba(131, 179, 211, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: black;
+  background-color: rgba(242, 242, 242, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.searching-results {
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: none;
+}
+
+.select-control {
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 /* advantages */
 .advantages {
   font-family: "PT Sans", sans-serif;
@@ -191,7 +364,8 @@ body {
 
 /* mailing-list */
 .mailing-list {
-  background-image: url(../images/index-images/background.png); /* как сделать текст по центру :*( */
+  background-image: url(../images/index-images/background.png);
+  /* как сделать текст по центру :*( */
   color: white;
   background-color: black;
   background-repeat: no-repeat;
@@ -212,7 +386,7 @@ body {
   line-height: 36px;
 }
 
-.blue-button {
+.blue-button-index {
   color: white;
   background-color: #81B3D2;
   text-transform: uppercase;
