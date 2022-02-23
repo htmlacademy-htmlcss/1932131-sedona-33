@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <div class="full-catalog-container">
   <header class="page-header">
     <nav class="navigation">
       <a class="navigation-logo" href="index.html">
@@ -43,10 +44,9 @@
     </nav>
   </header>
   <main class="main-inner">
-    <div class="catalog-page-container">
+    <section class="catalog-page-container">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <div class="breadcrumbs-container">
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html"><img class="home-picture" alt="Изображение кнопки домой"
@@ -61,13 +61,11 @@
               <a class="breadcrumbs-link">Гостиницы</a>
             </li>
           </ul>
-        </div>
       </header>
       <section class="hotel-catalog">
         <h2 class="visually-hidden">Каталог гостиниц c фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="filter-wrapper">
-            <div class="infrastructure">
+
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-infrastructure">Инфраструктура:</legend>
                 <ul class="list-filter list-filter-infrastructure">
@@ -88,8 +86,7 @@
                   </li>
                 </ul>
               </fieldset>
-            </div>
-            <div class="house">
+            
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-type">Тип жилья:</legend>
                 <ul class="list-filter list-filter-type-of-housing">
@@ -111,7 +108,6 @@
                 </ul>
                 <!--Сортировка по стоимости-->
               </fieldset>
-            </div>
             <ul class="catalog-buttons">
               <li class="catalog-button">
                 <button class="blue-button-catalog" type="submit">Применить</button>
@@ -120,19 +116,16 @@
                 <input class="reset-button" type="reset">
               </li>
             </ul>
-          </div>
         </form>
       </section>
-    </div>
+    </section>
     <section class="results">
-      <div class="show-results">
         <h3 class="searching-results">Найдено гостиниц: 38</h3>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
           <option value="popular">Сначала популярное</option>
         </select>
-        <div class="filter-container">
           <ul class="filter-buttons">
             <li class="filter-buttons-item">
               <a href="#" class="filter-button-current">
@@ -156,9 +149,6 @@
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-      <div class="hotels">
         <ul class="hotels-card">
           <li class="hotels-item">
             <a class="hotel-card-link" href="hotel.html">
@@ -240,14 +230,11 @@
             <p class="hotel-rating">Рейтинг: 9,2</p>
           </li>
         </ul>
-      </div>
     </section>
     <hr>
-    <div class="show-more-wrapper"><button class="button pagination-show-more blue-button" type="button">Загрузить
-        ещё</button></div>
+<button class="button pagination-show-more" type="button">Загрузить
+        ещё</button>
     <hr>
-    <div class="pagination-searching-wrapper">
-      <div class="pagination-wrapper">
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
@@ -270,16 +257,12 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
-      </div>
-      <div class="results-wrapper">
         <h3 class="searching-results">Гостиниц на странице:</h3>
         <select class="select-control" aria-label="Количество вариантов на страницу">
           <option value="four">4</option>
           <option value="eight">8</option>
           <option value="sixteen">16</option>
         </select>
-      </div>
-    </div>
     <section class="mailing-list-catalog">
       <h3 class="mailing-list-header">Подпишитесь на рассылку</h3>
       <p class="search-hotel-discription">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -290,7 +273,6 @@
     </section>
   </main>
   <footer>
-    <div class="page-footer-container">
       <ul class="link-list">
         <li class="link-item">
           <a class="navigation-link" href="https://twitter.com/htmlacademy_ru"><img class="twitter-logo"
@@ -319,8 +301,8 @@
           <span class="visually-hidden">HTML Academy</span>
         </a>
       </section>
-    </div>
   </footer>
+</div>
 </body>
 
 </html>
