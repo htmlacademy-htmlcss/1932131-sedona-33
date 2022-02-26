@@ -28,7 +28,14 @@ body {
   color: black;
   background-color: white;
 }
-
+.full-container {
+  width: 1200px;
+margin: 0 auto;
+} 
+.full-catalog-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 /* header */
 .page-header {
   color: #000000;
@@ -73,19 +80,6 @@ body {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 20px;
-}
-
-/* main-logo */
-.main-logo-background {
-  background-image: url(../images/index-images/index-background.jpg);
-  /*как-сделать-лого-по-центру */
-  color: black;
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 485px;
-  /* если задать width, то картинка не до краев, по критериям задать надо, как быть */
-  text-align: center;
 }
 
 /* main-index */
@@ -136,7 +130,7 @@ body {
   background-image: url(../images/catalog-images/catalog-background.png);
   /*почему так похо отображается :**( */
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  width: 1200px;
 }
 
 .filter-wrapper {
@@ -145,17 +139,18 @@ body {
   justify-content:space-around;
 }
 .main-logo {
-  display: block;
   margin: 0 auto;
+  background-image: url(../images/index-images/index-background.jpg);
+  color: black;
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 485px;
 }
 
 .breadcrumbs-link {
   text-decoration: none;
 }
-.breadcrumbs-container {
-  display: flex;
-  list-style: none;
-}
+
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
@@ -199,11 +194,6 @@ body {
   color: black;
   background-color: white;
 }
-.show-results {
-  display: flex;
-  justify-content: space-around;
-}
-
 
 .select-control {
   font-size: 18px;
@@ -286,30 +276,11 @@ body {
   line-height: 25px;
   height: 60px;
 }
-.show-more-wrapper {
-  display: flex;
-  justify-content: center;
-}
-.pagination-searching-wrapper {
-  display: flex;
-  justify-content: space-between
-}
-.pagination-wrapper {
-  display: flex;
-  list-style: none;
-  flex-grow: 1;
-  justify-content: space-around
-
-}
 .pagination {
   flex-basis: 30%;
   justify-content: space-around
 }
-.results-wrapper {
-  display: flex;
-  flex-basis: 40%;
-  justify-content: space-around;
-}
+
 .pagination-link {
   color: white;
   background-color: rgba(131, 179, 211, 1);
@@ -343,10 +314,6 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.filter-container {
-   display: flex;
-   list-style: none;
-}
 /* advantages */
 .advantages {
   font-family: "PT Sans", sans-serif;
@@ -368,42 +335,17 @@ body {
   padding: 0%;
   
 }
-.advices {
-  display: flex;
-  flex-direction: row;
-  
-}
-.first-advice {
-  width: 400px;
-  flex-grow: 1;
-}
-.second-advice {
-  width: 400px;
-  flex-grow: 1;
-}
-.advantages-first-type {
+.advantages-item-first-type {
   color: white;
   background-color: #81B3D2;
-  display: flex;
 }
-
 .advantages-title-first-type {
-  color: white;
-  background-color: #81B3D2;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
-.true-city {
-  width: 400px;
-}
-.first-adavantage {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
 .advantage-picture {
   display: flex;
 }
@@ -413,11 +355,8 @@ body {
 .advice-item-first {
   color: black;
   background-color: rgba(131, 179, 211, 0.12);
+}
 
-}
-.second-advantage {
-  width: 400px;
-}
 .advantages-title-second-type {
   text-transform: uppercase;
 }
@@ -462,17 +401,8 @@ body {
   margin: 0%;
   padding: 0%;
 }
-.last-advantages-container {
-  display: flex;
-  flex-direction: row;
-  
-}
-.third-advantage {
-  flex-grow: 1;
-}
-.fourth-advantage{
-  flex-grow: 1;
-}
+
+
 /* search-hotel */
 .search-hotel {
   font-family: "PT Sans", sans-serif;
@@ -499,19 +429,6 @@ body {
   width: 720px;
   text-align: center;
   margin: 0 auto;
-}
-.button-brown-long {
-  width: 575px;
-  margin: 0 auto;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
-}
-.hotels {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
 }
 
 /* mailing-list */
@@ -560,13 +477,6 @@ body {
 }
 
 /* footer */
-.page-footer-container {
-  display: flex;
-  flex-direction: row;
-  margin: 40px;
-  padding: 0;
-  justify-content: space-around;
-}
 .link-list {
   list-style: none;
 }
